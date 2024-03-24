@@ -1,0 +1,54 @@
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navigation styles */
+#navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 250px;
+  height: 100vh;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  overflow-y: scroll;
+}
+
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+/* Main section styles */
+#main-doc {
+  margin-left: 250px; /* Ensure content doesn't overlap with navbar */
+  padding: 20px;
+}
+
+.main-section {
+  margin-bottom: 30px;
+}
+
+/* Media query for responsive design */
+@media (max-width: 768px) {
+  #navbar {
+      width: 100%;
+      height: auto;
+      padding: 10px;
+  }
+
+  #main-doc {
+      margin-left: 0; /* Reset margin for smaller screens */
+      padding: 10px;
+  }
+}
