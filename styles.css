@@ -1,54 +1,62 @@
 /* Global styles */
 body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 /* Navigation styles */
 #navbar {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 250px;
-  height: 100vh;
-  background-color: #333;
-  color: #fff;
-  padding: 20px;
-  overflow-y: scroll;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 430px;
+    height: 100vh;
+    background-color: #2b29a5;
+    color: #494e1c;
+    padding: 20px;
+    overflow-y: scroll;
+    font-size: 25px;
 }
 
 .nav-link {
-  color: #fff;
-  text-decoration: none;
-  display: block;
-  margin-bottom: 10px;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
 }
 
 .nav-link:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }
 
+header {
+  font-size: 35px;
+}
+p {
+  font-size: larger;
+  color: #605d5d;
+}
 /* Main section styles */
 #main-doc {
-  margin-left: 250px; /* Ensure content doesn't overlap with navbar */
-  padding: 20px;
+    margin-left: 500px; /* Ensure content doesn't overlap with navbar */
+    padding: 20px;
 }
 
 .main-section {
-  margin-bottom: 30px;
+    margin-bottom: 30px;
 }
 
 /* Media query for responsive design */
 @media (max-width: 768px) {
-  #navbar {
-      width: 100%;
-      height: auto;
-      padding: 10px;
-  }
+    #navbar {
+        width: 100%;
+        height: auto;
+        padding: 10px;
+    }
 
-  #main-doc {
-      margin-left: 0; /* Reset margin for smaller screens */
-      padding: 10px;
-  }
+    #main-doc {
+        margin-left: 0; /* Reset margin for smaller screens */
+        padding: 10px;
+    }
 }
