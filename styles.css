@@ -48,6 +48,10 @@ code {
 
 #navbar ul li {
   font-size: 25px;
+  border-bottom: 2px solid #bbcae0;
+  height: 55px;
+  padding-top: 25px;
+  bottom: 0;
 }
 
 li {
