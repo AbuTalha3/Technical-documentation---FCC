@@ -32,6 +32,8 @@ body {
 
 header {
   font-size: 35px;
+  padding-top: 15px;
+  font-weight: 500;
 }
 
 p {
