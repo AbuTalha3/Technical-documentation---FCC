@@ -12,8 +12,8 @@ body {
     left: 0;
     width: 430px;
     height: 100vh;
-    background-color: #2b29a5;
-    color: #494e1c;
+    background-color: #100f5d;
+    color: #edfb6c;
     padding: 20px;
     overflow-y: scroll;
     font-size: 25px;
@@ -33,9 +33,25 @@ body {
 header {
   font-size: 35px;
 }
+
 p {
   font-size: larger;
   color: #605d5d;
+}
+
+code {
+  font-size: 18px;
+  width: 80%;
+  height: 55px;
+  background-color: #e3ebef;
+}
+
+#navbar ul li {
+  font-size: 25px;
+}
+
+li {
+  font-size: 18px;
 }
 /* Main section styles */
 #main-doc {
